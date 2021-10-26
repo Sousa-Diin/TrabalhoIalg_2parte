@@ -1,5 +1,5 @@
 /*Segunda parte do trabalho de IALG
- * Algorito Loja de Veiculo
+ * Cadastro de Veiculo
  * 
  * NOME: Wildes Augusto de Sousa - 
  * Matricula: 202020602
@@ -175,7 +175,7 @@ using std::setw; // usado para ajustar a largura no modo de exibicao
             case '4' :
                 sair();
                 break;
-             default:
+            default:
                 cout << setw(10);
                 cout << "\t\tInsira um comando valido." << "\n";
                 system("cls");
